@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.page-wrapper {
+  @apply flex flex-col min-h-screen pt-16; /* karena Navbar fixed top */
+}
+
+.main-content {
+  @apply flex-grow px-4;
+}
+
+.app-container {
+  @apply max-w-5xl mx-auto py-10;
+}
+
+.deskripsi-section {
+  @apply mb-6;
+}
+
+.judul-permainan {
+  @apply text-xl font-semibold mb-4;
+}
+
+.grid-permainan {
+  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4;
+}
+
+.tombol-section {
+  @apply mt-8 text-center;
+}
